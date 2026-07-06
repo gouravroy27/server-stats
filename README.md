@@ -191,7 +191,7 @@ User-space automation wrappers providing network connection mapping and environm
 
 ```bash
 # Clone the repository directly from the deployment source
-git clone [https://github.com/gourav-roy/server-stats.git](https://github.com/gourav-roy/server-stats.git)
+git clone https://github.com/gourav-roy/server-stats.git
 cd server-stats
 
 # Verify code design integrity and line endings
