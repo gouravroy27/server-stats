@@ -190,8 +190,10 @@ User-space automation wrappers providing network connection mapping and environm
 ### ⚡ Installation & Execution
 
 ```bash
+
 # Pull the standalone executable directly from the latest production release CDN
 git clone https://github.com/gouravroy27/server-stats.git
+cd server-stats
 
 # Provision standalone executable runtime access flags
 chmod +x server-stats.sh
