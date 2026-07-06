@@ -1,0 +1,91 @@
+================================================================================
+SERVER-STATS REQUIREMENTS & DEPENDENCIES (LINUX & UNIX-LIKE SYSTEMS)
+================================================================================
+
+Target Platforms:
+  • Linux (kernel 2.6+, any distribution)
+  • Windows WSL / WSL2 (Ubuntu, Debian, Alpine, etc.)
+  • macOS (10.9+, fallback mode supported)
+
+Required Core Utilities (Usually Pre-installed):
+  bash (version 4.0 or higher)
+    - Verification: bash --version
+    - Package: bash
+    
+  awk (gawk or mawk)
+    - Verification: awk 'BEGIN { print "OK" }'
+    - Package: gawk
+    
+  sed (GNU or BSD version)
+    - Verification: sed --version
+    - Package: sed
+    
+  grep
+    - Verification: grep --version
+    - Package: grep
+    
+  ps (procps-ng or native)
+    - Verification: ps --version
+    - Package: procps
+    
+  cat, head, tail, uptime, who, hostname, date, vmstat
+    - Verification: which vmstat
+    - Packages: coreutils, procps
+
+Memory & Disk Stats Tools:
+  free (Linux only)
+    - Verification: free -b
+    - Package: procps
+  
+  vm_stat (macOS fallback only)
+    - Verification: vm_stat
+    
+  df (standard disk free utility)
+    - Verification: df -h
+
+Optional Dependencies (Advanced Features):
+  
+  For Wireless Network (Wi-Fi) Scanning & Information:
+    nmcli (NetworkManager Client Utility) - Primary
+      - Package: network-manager
+      - Verification: command -v nmcli
+    
+    OR
+    
+    iw (Wireless Device Configuration Utility) - Secondary
+      - Package: iw
+      - Verification: command -v iw
+    
+    *If neither is installed, Wi-Fi features will gracefully report that tools are missing.*
+
+  For Laptop Battery Metrics:
+    - Physical battery data is read directly from: /sys/class/power_supply/
+    - No external packages required.
+    - *Expected to report "No battery detected" on desktops, servers, and virtual machines.*
+
+For Developer Static Analysis:
+  shellcheck (Bash static code analysis tool)
+    - Package: shellcheck
+    - Usage: shellcheck server-stats.sh
+
+Estimated Installation Time:
+  - Fresh Linux VM/Container: <1 minute (nearly all core utilities are base OS defaults)
+  - macOS: <1 minute
+
+Cost: Free & Open Source (MIT License)
+
+--------------------------------------------------------------------------------
+DIAGNOSTIC CHECKLIST
+--------------------------------------------------------------------------------
+  ✓ bash --version (returns 4.0+)
+  ✓ which awk (returns binary path)
+  ✓ which sed (returns binary path)
+  ✓ which grep (returns binary path)
+  ✓ which ps (returns binary path)
+  ✓ ls -la server-stats.sh (shows executable permissions)
+  ✓ bash -n server-stats.sh (reports no syntax errors)
+  ✓ ./server-stats.sh -h (displays option menu without executing)
+
+--------------------------------------------------------------------------------
+Generated: July 6, 2026
+--------------------------------------------------------------------------------
