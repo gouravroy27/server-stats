@@ -191,7 +191,7 @@ User-space automation wrappers providing network connection mapping and environm
 
 ```bash
 # Pull the standalone executable directly from the latest production release CDN
-wget [https://github.com/gourav-roy/server-stats/releases/latest/download/server-stats.sh](https://github.com/gourav-roy/server-stats/releases/latest/download/server-stats.sh)
+git clone https://github.com/gouravroy27/server-stats.git
 
 # Verify execution code layout integrity
 file server-stats.sh
