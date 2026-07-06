@@ -35,16 +35,16 @@
 <!-- 2. ABOUT SECTION -->
 ## ▌ PROJECT OVERVIEW
 
-The **Server Stats System Monitoring Tool** is a high-fidelity, enterprise-grade real-time system telemetry and performance reporting utility engineered specifically for Linux and Unix-like environments[cite: 1]. Designed around a modern minimalist terminal interface, it enables system administrators, SREs, and DevOps engineers to perform instantaneous infrastructure health audits without introducing the operational overhead of persistent background daemons or continuous agent pooling[cite: 1].
+The **Server Stats System Monitoring Tool** is a high-fidelity, enterprise-grade real-time system telemetry and performance reporting utility engineered specifically for Linux and Unix-like environments. Designed around a modern minimalist terminal interface, it enables system administrators, SREs, and DevOps engineers to perform instantaneous infrastructure health audits without introducing the operational overhead of persistent background daemons or continuous agent pooling.
 
-The architecture addresses document and telemetry overload by rendering highly structured performance tables, contextual metrics lists, and dynamic asymmetrical Left-Accent visual resource load cards (`▌`) directly inside the active user terminal session[cite: 1]. Supporting both a continuous, user-guided interactive menu matrix and direct non-interactive script automation boundaries via command-line arguments, Server Stats guarantees instant operational clarity across CPU diagnostics, disk limits, network profile provisioning, and low-level kernel event metrics[cite: 1].
+The architecture addresses document and telemetry overload by rendering highly structured performance tables, contextual metrics lists, and dynamic asymmetrical Left-Accent visual resource load cards (`▌`) directly inside the active user terminal session. Supporting both a continuous, user-guided interactive menu matrix and direct non-interactive script automation boundaries via command-line arguments, Server Stats guarantees instant operational clarity across CPU diagnostics, disk limits, network profile provisioning, and low-level kernel event metrics.
 
 ### 🎯 Engineering Highlights
-*   **Zero-Dependency Footprint:** Operates exclusively using standard native POSIX utilities (`awk`, `sed`, `grep`, `ps`, `df`, `vmstat`), guaranteeing deterministic compilation and execution boundaries across minimalist target containers or bare-metal infrastructures[cite: 1].
-*   **Observability Driven Mindset:** Implements custom algorithmic gauge interpolation loops that translate complex operating system kernel vectors into readable telemetry matrices instantly[cite: 1].
-*   **Security Bound Sandboxing:** Includes safe process handling routines, structural PID boundary authorization validation, and clean interface hooks built safely for secure automation pipelines[cite: 1].
+*   **Zero-Dependency Footprint:** Operates exclusively using standard native POSIX utilities (`awk`, `sed`, `grep`, `ps`, `df`, `vmstat`), guaranteeing deterministic compilation and execution boundaries across minimalist target containers or bare-metal infrastructures.
+*   **Observability Driven Mindset:** Implements custom algorithmic gauge interpolation loops that translate complex operating system kernel vectors into readable telemetry matrices instantly.
+*   **Security Bound Sandboxing:** Includes safe process handling routines, structural PID boundary authorization validation, and clean interface hooks built safely for secure automation pipelines.
 
-> **Open To:** Enterprise deployments, cross-platform POSIX extensions, infrastructure compliance testing environments, and open-source system performance monitoring enhancements[cite: 1].
+> **Open To:** Enterprise deployments, cross-platform POSIX extensions, infrastructure compliance testing environments, and open-source system performance monitoring enhancements.
 
 ---
 
@@ -69,8 +69,8 @@ The architecture addresses document and telemetry overload by rendering highly s
 
 | Processing Domain | Performance Proficiency | Details |
 | :--- | :---: | :--- |
-| **Kernel Data Parsing** | Enterprise Grade | High-frequency continuous processing of raw metrics pulled out of `/proc/stat` and low-overhead subsystems without dropping execution velocity[cite: 1]. |
-| **Gauge Optimization** | High Fidelity | Constructing specialized 24-character dual-texture string progress monitors utilizing mathematical string scaling arrays handled purely via native `awk` boundaries[cite: 1]. |
+| **Kernel Data Parsing** | Enterprise Grade | High-frequency continuous processing of raw metrics pulled out of `/proc/stat` and low-overhead subsystems without dropping execution velocity. |
+| **Gauge Optimization** | High Fidelity | Constructing specialized 24-character dual-texture string progress monitors utilizing mathematical string scaling arrays handled purely via native `awk` boundaries. |
 | **Asynchronous Sweeping** | Advanced Infrastructure | Handling immediate non-blocking queries against NetworkManager abstractions to evaluate device link speeds and radio topology layouts synchronously[cite: 1]. |
 | **System Signal Mapping** | Deterministic Execution | Orchestrating structural state authorization mappings to ensure precise process interception rules during interactive process tracking operations[cite: 1]. |
 
@@ -197,82 +197,35 @@ An advanced operational wrapper that monitors physical network interfaces, evalu
 
 ---
 
-<!-- 9. CODING PROFILES SECTION -->
-## ▌ CHANNELS & DISTRIBUTION
+<!-- 9. INSTALLATION & SETUP SECTION -->
+## ▌ INSTALLATION & RUNTIME SETUP
 
-<div align="center">
-  <a href="https://github.com/gourav-roy/server-stats/releases"><img src="https://img.shields.io/badge/GitHub%20Release-Stable%20Tarball-FFA116?style=for-the-badge&logo=github&logoColor=black" /></a>&nbsp;
-  <a href="https://github.com/gourav-roy/server-stats"><img src="https://img.shields.io/badge/Arch%20AUR-Package%20Build-298D46?style=for-the-badge&logo=archlinux&logoColor=white" /></a>&nbsp;
-  <a href="https://github.com/gourav-roy/server-stats"><img src="https://img.shields.io/badge/Nixpkgs-System%20Derivation-2EC866?style=for-the-badge&logo=nixos&logoColor=white" /></a>&nbsp;
-  <a href="https://github.com/gourav-roy/server-stats"><img src="https://img.shields.io/badge/Homebrew-Formula%20Core-5B4636?style=for-the-badge&logo=homebrew&logoColor=white" /></a>
-</div>
+### 📋 Prerequisites Check
 
----
+Ensure your destination infrastructure meets the following baseline criteria prior to initiating runtime compilation[cite: 1]:
+*   **Interpreter:** Bash 4.0 or higher (`bash --version`)[cite: 1]
+*   **Core POSIX Utilities:** `ps`, `awk`, `sed`, `grep`, `cat`, `uptime`, `vmstat`, `hostname`, `date`[cite: 1]
+*   **Memory Tools:** Linux native `free` or macOS fallback environment `vm_stat`[cite: 1]
+*   **Connectivity Hooks (Optional):** NetworkManager CLI (`nmcli`) or alternative `iw` utilities[cite: 1]
+*   **Power Hooks (Optional):** Direct access path to active system `/sys/class/power_supply` descriptors[cite: 1]
 
-<!-- 10. GITHUB ANALYTICS SECTION -->
-## ▌ REPOSITORY ANALYTICS
+### ⚡ Deployment Steps
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=gourav-roy&show_icons=true&theme=radical&title_color=a78bfa&icon_color=8b5cf6&text_color=e2e8f0&bg_color=0f172a&hide_border=true&count_private=true" alt="Repository Activity Stats" />
-      </td>
-      <td>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=gourav-roy&theme=radical&title_color=a78bfa&icon_color=8b5cf6&text_color=e2e8f0&bg_color=0f172a&hide_border=true" alt="Development Streaks" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gourav-roy&layout=compact&theme=radical&title_color=a78bfa&icon_color=8b5cf6&text_color=e2e8f0&bg_color=0f172a&hide_border=true&langs_count=8" alt="Project Composition Metrics" />
-      </td>
-    </tr>
-  </table>
-</div>
+```bash
+# Step 1: Clone or acquire the core tracking script to your working folder
+wget [https://raw.githubusercontent.com/gourav-roy/server-stats/main/server-stats.sh](https://raw.githubusercontent.com/gourav-roy/server-stats/main/server-stats.sh)
 
----
+# Step 2: Verify file layout integrity and confirm standard Unix line endings (LF)
+file server-stats.sh
 
-<!-- 11. GITHUB TROPHIES SECTION -->
-## ▌ REPOSITORY QUALITY ECOSYSTEM
+# Note: If your environment introduces CRLF modifications, execute the conversion:
+# sed -i 's/\r$//' server-stats.sh
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=gourav-roy&theme=radical&no-bg=true&no-frame=true&column=6&margin-w=15" alt="Repository Awards" />
-</div>
+# Step 3: Provisions immediate execution boundary privileges
+chmod +x server-stats.sh
 
----
+# Step 4: Link to standard binary path variables for global terminal access (Optional)
+sudo cp server-stats.sh /usr/local/bin/server-stats
 
-<!-- 12. CONTRIBUTION ACTIVITY SECTION -->
-## ▌ DEVELOPMENT VELOCITY
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gourav-roy&theme=react-dark&bg_color=0f172a&color=8b5cf6&line=a78bfa&point=ffffff&area=true&hide_border=true" width="100%" alt="Repository Check-In History" />
-</div>
-
----
-
-<!-- 13. CONTRIBUTION SNAKE SECTION -->
-## ▌ CODE ENGINE VELOCITY
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/gourav-roy/gourav-roy/output/github-contribution-grid-snake-dark.svg" alt="Code Activity Grid Matrix" width="100%" />
-</div>
-
----
-
-<!-- 14. CURRENT FOCUS SECTION -->
-## ▌ ENVIRONMENT ROADMAP
-
-```yaml
-system_context:
-  learning:
-    - "Deconstructing advanced eBPF runtime probes for low-overhead telemetry mappings"
-    - "Evaluating standard JSON output structures using pure POSIX shell constraints"
-  building:
-    - "Asynchronous real-time log observation arrays targeting systemd systems"
-    - "Dynamic terminal resizing event handlers using standard signal traps"[cite: 1]
-  exploring:
-    - "Compiling automated testing matrices for older legacy Unix server systems"
-    - "Mapping low-level task tree relationships into minimalist dashboard blocks"[cite: 1]
-  open_to:
-    - "Enterprise Infrastructure Deployment Testing"
-    - "Open-Source POSIX Compliance Validation Cooperations"
+# Step 5: Validate successful environmental parsing and flag execution limits
+server-stats --help
