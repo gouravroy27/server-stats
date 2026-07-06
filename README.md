@@ -193,14 +193,8 @@ User-space automation wrappers providing network connection mapping and environm
 # Pull the standalone executable directly from the latest production release CDN
 git clone https://github.com/gouravroy27/server-stats.git
 
-# Verify execution code layout integrity
-file server-stats.sh
-
 # Provision standalone executable runtime access flags
 chmod +x server-stats.sh
 
-# Move binary assets globally across environment path rules (Optional)
-sudo mv server-stats.sh /usr/local/bin/server-stats
-
 # Fire up the verification matrix
-server-stats --help
+./server-stats.sh
