@@ -190,18 +190,17 @@ User-space automation wrappers providing network connection mapping and environm
 ### ⚡ Installation & Execution
 
 ```bash
-# Clone the repository directly from the deployment source
-git clone https://github.com/gourav-roy/server-stats.git
-cd server-stats
+# Pull the standalone executable directly from the latest production release CDN
+wget [https://github.com/gourav-roy/server-stats/releases/latest/download/server-stats.sh](https://github.com/gourav-roy/server-stats/releases/latest/download/server-stats.sh)
 
-# Verify code design integrity and line endings
+# Verify execution code layout integrity
 file server-stats.sh
 
-# Provision baseline executable access flags
+# Provision standalone executable runtime access flags
 chmod +x server-stats.sh
 
-# Link binary assets globally across the environment path (Optional)
-sudo cp server-stats.sh /usr/local/bin/server-stats
+# Move binary assets globally across environment path rules (Optional)
+sudo mv server-stats.sh /usr/local/bin/server-stats
 
-# Fire up the environment flag validation matrix
+# Fire up the verification matrix
 server-stats --help
